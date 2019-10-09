@@ -1,0 +1,22 @@
+Declare str1 : string
+Declare vowel :string
+Declare number of vowels :integer
+Declare counter : integer
+
+str= ""
+vowel = "aeiou"
+number of vowels : 0
+counter = 0
+
+output:"Enter string to check." 
+input str1
+
+str1 = lowercase(str1)
+
+for counter = 1 to length(str1)
+if locate(str1,mid(vowel,count,1))
+    then
+         number of vowels = number of vowels + 1
+    endif
+next
+ output" number of vowels "
