@@ -1,0 +1,27 @@
+Declare str1 :string
+Declare str2 :string
+Declare char1 :character
+Declare char2 :character
+Declare nextchae :character
+Declare counter :integer
+
+Str1= ""
+Str2= ""
+Char1= ''
+Char2=''
+Nextchar=''
+Counter=0
+
+output "enter string : "
+input str1
+
+output "enter character to remove : "
+input char2
+
+For counter=1 to length(str1)
+   nextchar=char1
+   nextchar=char2
+ endif
+   str2=str2 & nextchar
+ endfor
+  output "final string is= & str2"
