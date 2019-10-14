@@ -1,0 +1,31 @@
+Declare str1 : string
+Declare Alphastr : string 
+Declare nextchar : character
+Declare ispangram : boolean
+Declare counter : integer
+
+str1 = ""
+Alphastr = "abcdefghijklmnopqrstuvwxyz"
+nextchar = ''
+ispangram = true
+counter = 0
+
+str1 = lower(str1)
+
+for counter = 1 to LENGTH(Alphastr1)
+    nextchar = MID(Alphachar, count, 1)
+    if LOCATE((str1), nextchar) = 0
+     then
+         ispangram = false
+       Exitfor
+    Endif
+Endfor
+  
+
+if ispengram = true
+ Then
+output " statement is pengram "
+ Else
+output " statement is not pengram "
+ Endif
+
